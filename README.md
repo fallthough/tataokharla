@@ -1,1 +1,1 @@
-King and Aileen Wedding RSVP
+Wedding RSVP
