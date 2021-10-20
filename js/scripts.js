@@ -170,17 +170,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "King and Aileen's Wedding",
+            title: "Tatao and Kharla's Wedding",
 
             // Event start date
-            start: new Date('Nov 13, 2021 14:30'),
+            start: new Date('Dec 17 2021 13:30'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 13, 2021 21:00'),
+            end: new Date('Dec 17, 2021 21:00'),
 
             // Event Address
-            address: 'OUR LADY OF REMEDIES PARISH MALATE MANILA',
+            address: 'ST. BENEDICT PARISH, Silang, Cavite',
 
             // Event Description
             description: "We can't wait to see you on our big day!"
@@ -201,7 +201,7 @@ $(document).ready(function () {
         else {
             $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
     
-            $.post('https://script.google.com/macros/s/AKfycbwNg1hBMGDjYnXoGu4hfyU8O2QahQzRqAlGQXSuUrw2rqXXNYue2636fT_iyX1CqJ7q/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbylHd3-MxUEBz0byDphZGFg4-3nIfWGVWwIEgHGbS85cA_6L0M70_1jcuGXO6d6jkFf/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
